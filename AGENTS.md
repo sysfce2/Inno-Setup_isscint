@@ -40,8 +40,8 @@ The key class hierarchy is: `Editor` → `ScintillaBase` → `ScintillaWin`. `Ed
 
 ## Inno Setup-specific changes
 
-See the `README` file for a list of modifications. The full diff is available via `git diff upstream/main`. Direct2D is disabled (`DISABLE_D2D` in `scintilla.mak`) — only GDI rendering is used.
+See the `README` file for a list of modifications.
 
 ## Updating from upstream
 
-Upstream Scintilla releases are imported as zip snapshots from SourceForge. The upstream tracking branch is `upstream/main`. After merging, verify the Inno Setup-specific changes (listed in `README`) still apply correctly.
+Upstream Scintilla releases are imported as zip snapshots from SourceForge. After merging, verify the Inno Setup-specific changes (listed in `README`) still apply correctly.
