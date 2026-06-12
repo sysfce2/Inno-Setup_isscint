@@ -186,7 +186,7 @@ const KeyToCommand KeyMap::MapVscodeWindows[] = {
 * - Added Alt+Shift+Down for LineDuplicate
 * - Removed Ctrl+Shift+[ and Ctrl+Shift+]	which were Para[Up|Down]Extend but should instead be used to fold/unfold by the container
 * - Changed Ctrl+[ and Ctrl+] from Para[Up|Down] to Line(Back)Tab
-* - Changed Ctrl+Shift+K to Ctrl+Shift+L for LineDelete
+* - Changed Ctrl+Shift+L to Ctrl+Shift+K for LineDelete
 * - Removed Ctrl+D which was SelectionDuplicate but should instead be used to select next match by the container
 * - Removed Ctrl+U and Ctrl+Shift+U which were [Lower|Upper]Case but instead Ctrl+U	should be used to cursor undo by the container
 * - Changed Copy and Cut to CopyAllowLine and CutAllowLine
